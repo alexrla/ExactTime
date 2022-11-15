@@ -139,6 +139,26 @@ body {
     font-size: 1.5em;
 }
 
+/* bannerr */
+#banners-container {
+    padding: 0;
+}
+
+.carousel-caption {
+    bottom: 5em;
+
+    left: 12%;
+
+    padding: 1em;
+
+    right: 12%;
+}
+
+.carousel-caption h5 {
+    font-size: 1.8em;
+}
+
+
 /* responsividade */
 @media(min-width: 768px) {
     .navbar-brand {
@@ -157,5 +177,20 @@ body {
         width: 50%;
 
         margin: 0;
+    }
+
+    #slider .carousel-item,
+    #slider img {
+        height: 600px;
+    }
+
+    .carousel-caption {
+        left: 23%;
+
+        right: 23%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 4em;
     }
 }
