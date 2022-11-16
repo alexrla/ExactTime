@@ -367,6 +367,51 @@ body {
     width: 90px;
 }
 
+/* gallery */
+#gallery .image-container {
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    border: 3px solid #101010;
+
+    cursor: pointer;
+
+    height: 225px;
+
+    transition: .5s;
+}
+
+#gallery .image-container:hover {
+    border-color: #C09578;
+}
+
+#insta1 {
+    background-image: url("../imgs/insta1.jpg");
+}
+
+#insta2 {
+    background-image: url("../imgs/insta2.jpg");
+}
+
+#insta3 {
+    background-image: url("../imgs/insta3.jpg");
+}
+
+#insta4 {
+    background-image: url("../imgs/insta4.jpg");
+}
+
+#insta5 {
+    background-image: url("../imgs/insta5.jpg");
+}
+
+#insta6 {
+    background-image: url("../imgs/insta6.jpg");
+}
+
 /* responsividade */
 @media(min-width: 768px) {
     .navbar-brand {
