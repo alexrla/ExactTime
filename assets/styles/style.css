@@ -299,6 +299,36 @@ body {
     border-color: #C09578;
 }
 
+/* banner destaque */
+#bottom-banner {
+    background-color: #101010;
+
+    margin-bottom: 4em;
+
+    padding: 6em;
+
+    text-align: center;
+}
+
+#bottom-banner  .offer-subtitle,
+#bottom-banner  h2 {
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+
+#bottom-banner .btn {
+    font-weight: bold;
+
+    margin: 2em;
+
+    padding: 1em;
+}
+
+#bottom-banner  img {
+    max-width: 175px;
+}
+
 /* responsividade */
 @media(min-width: 768px) {
     .navbar-brand {
@@ -340,5 +370,9 @@ body {
 
     .title {
         text-align: left;
+    }
+
+    #bottom-banner h2 {
+        font-size: 6em;
     }
 }
