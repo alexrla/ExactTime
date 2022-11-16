@@ -95,7 +95,8 @@ body {
     justify-content: space-between;
 }
 
-#search-form {
+#search-form,
+#news-form {
     border: 2px solid #626262;
 
     border-radius: 3px;
@@ -107,7 +108,8 @@ body {
     width: 100%;
 }
 
-#search-form input {
+#search-form input,
+#news-form input {
     background-color: transparent;
 
     border: none;
@@ -115,11 +117,13 @@ body {
     color: #FFF;
 }
 
-#search-form input:focus {
+#search-form input:focus,
+#news-form input:focus {
     box-shadow: none;
 }
 
-#search-form input::placeholder {
+#search-form input::placeholder,
+#news-form input::placeholder {
     color: #FFF;
 }
 
@@ -412,6 +416,116 @@ body {
     background-image: url("../imgs/insta6.jpg");
 }
 
+/* footer */
+#footer-links-container {
+    border-bottom: 1px solid #626262;
+}
+
+#footer .footer-column {
+    align-items: center;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 2em;
+
+    text-align: center;
+}
+
+#footer-links-container h3 {
+    margin-bottom: 25px;
+
+    text-transform: uppercase;
+}
+
+#footer-links-container li {
+    font-size: .8em;
+
+    text-align: center;
+}
+
+#footer-links-container a {
+    text-decoration: none;
+
+    transition: .4s;
+}
+
+#footer-links-container a:hover {
+    color: #C09578;
+}
+
+#footer-center {
+    border-left: 1px solid #626262;
+
+    border-right: 1px solid #626262;
+}
+
+#footer-center h3 {
+    font-weight: 900;
+}
+
+#footer-center .store-phone {
+    color: #C09578;
+
+    font-size: 2em;
+
+    font-weight: bold;
+
+    margin-top: -15px;
+}
+
+#newsletter-container {
+    background-color: #101010;
+
+    border-bottom: 1px solid #626262;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+#news-form {
+    margin: 15px auto;
+
+    max-width: 600px;
+}
+
+#news-form i {
+    font-size: 1.5em;
+}
+
+#news-form .btn {
+    color: #FFF;
+}
+
+#social-container {
+    margin: 20px auto;
+}
+
+
+#social-container i {
+    color: #626262;
+
+    cursor: pointer;
+
+    font-size: 1.5em;
+
+    margin: 10px;
+
+    transition: .3s;
+}
+
+#social-container i:hover {
+    color: #C09578;
+}
+
+#copy-container {
+    padding: 30px;
+    
+    text-align: center;
+}
+
 /* responsividade */
 @media(min-width: 768px) {
     .navbar-brand {
@@ -457,5 +571,13 @@ body {
 
     #bottom-banner h2 {
         font-size: 6em;
+    }
+
+    #footer .footer-column {
+        padding: 5em 2em;
+    }
+
+    #footer-links-container li {
+        font-size: 1em;
     }
 }
